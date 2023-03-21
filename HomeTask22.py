@@ -8,15 +8,17 @@
 3 6 9 12 15 18
 6 12
 """""
-n1 = int(input("Введите количество элементов в массиве: "))
+n1 = int(input("Введите количество элементов в первом списке: "))
 list_1 = [int(input()) for item in range(n1)]
 
-n2 = int(input("Введите количество элементов во втором массиве: "))
+n2 = int(input("Введите количество элементов во втором списке: "))
 list_2 = [int(input()) for item in range(n2)]
 
 print(list_1)
 print(list_2)
-for i in list_1, list_2:
-    if list_1[i] == list_2[i]:
-        print(i)
+list_3 = list_1 + list_2
+
+for i in set(list_3):
+    if list_3.count(i) >1:
+        print(i, end =' ')
 
