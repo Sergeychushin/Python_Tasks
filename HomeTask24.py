@@ -10,3 +10,18 @@
 4 -> 1 2 3 4
 9
 """""
+from random import randint
+n = int(input("Введите количество кустов: "))
+list_1 = list(randint(1, n) for item in range(n))
+print(list_1)
+sum_max = list_1[-2] + list_1[-1] + list_1[0]
+index_max = -1
+for index in range(1, len(list_1) - 1):
+    cur_sum = list_1[index -1] + list_1[index] + list_1[index +1]
+    
+print(max)
+
+
+
+
+  
