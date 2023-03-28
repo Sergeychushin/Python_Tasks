@@ -38,14 +38,14 @@ def hak(a):
         elif i < min:
             min = a[i]
     for j in a:
-        if a
+#        if a
 
 
 
-a = []
-n = int(input())
-for i in range(n):
-    a.append(int(input()))
+#a = []
+#n = int(input())
+#for i in range(n):
+#    a.append(int(input()))
 
 
 
@@ -56,14 +56,14 @@ for i in range(n):
 Input: 5
 Output: yes
 """""
-def prosto(n):
-    for i in range(2, n):
-        if n%!== 0:
-            return ("no")
-        else:
-            return("yes")
-n = int(input())
-print(prosto(n))
+#def prosto(n):
+#    for i in range(2, n):
+#        if n%!== 0:
+#            return ("no")
+#        else:
+#            return("yes")
+#n = int(input())
+#print(prosto(n))
 
 
 """""
